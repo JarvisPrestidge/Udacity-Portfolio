@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.85">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/main_header_nanodegree"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:textStyle="bold"
+            android:id="@+id/header_custom_font"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:baselineAligned="false">
+
+        <!-- Added for button spacing -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            tools:ignore="NestedWeights,UselessLeaf">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity_horizontal_margin"
+                tools:ignore="UselessParent">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button1"
+                    android:text="@string/main_button_spotify"
+                    android:background="#F08C35"
+                    android:onClick="launchSpotify"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button2"
+                    android:text="@string/main_button_scores"
+                    android:background="#F08C35"
+                    android:onClick="launchScores"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button3"
+                    android:text="@string/main_button_library"
+                    android:background="#F08C35"
+                    android:onClick="launchLibrary"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button4"
+                    android:text="@string/main_button_build"
+                    android:background="#F08C35"
+                    android:onClick="launchBuild"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button5"
+                    android:text="@string/main_button_xyz"
+                    android:background="#F08C35"
+                    android:onClick="launchXYZ"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:height="0dp"
+                    android:id="@+id/button6"
+                    android:text="@string/main_button_capstone"
+                    android:background="#d40040"
+                    android:textColor="@android:color/white"
+                    android:onClick="launchCapstone"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Added for button spacing -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            tools:ignore="UselessLeaf">
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
