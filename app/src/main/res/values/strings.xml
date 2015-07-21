@@ -10,4 +10,10 @@
     <string name="main_button_xyz">XYZ Reader</string>
     <string name="main_button_capstone">Capstone: My Own App</string>
     <string name="main_header_nanodegree">Nanodegree Apps</string>
+    <string name="main_toast_spotify">This button will launch my Spotify Streamer app!</string>
+    <string name="main_toast_scores">This button will launch my Scores app!</string>
+    <string name="main_toast_library">This button will launch my Library app!</string>
+    <string name="main_toast_build">This button will launch my Build It Bigger app!</string>
+    <string name="main_toast_xyz">This button will launch my XYZ Reader app!</string>
+    <string name="main_toast_capstone">This button will launch my Capstone app!</string>
 </resources>

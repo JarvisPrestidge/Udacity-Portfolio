@@ -52,27 +52,27 @@ public class MainActivity extends ActionBarActivity {
     }
 
     // Methods handling button presses.
-    public void launchSpotify(View view) {
-        showShortToast("This button will launch my Spotify Streamer app!");
+    public void launchApp(View view) {
+        switch (view.getId()) {
+            case R.id.main_button_spotify:
+                showShortToast(getString(R.string.main_toast_spotify));
+                break;
+            case R.id.main_button_scores:
+                showShortToast(getString(R.string.main_toast_scores));
+                break;
+            case R.id.main_button_library:
+                showShortToast(getString(R.string.main_toast_library));
+                break;
+            case R.id.main_button_build:
+                showShortToast(getString(R.string.main_toast_build));
+                break;
+            case R.id.main_button_xyz:
+                showShortToast(getString(R.string.main_toast_xyz));
+                break;
+            case R.id.main_button_capstone:
+                showShortToast(getString(R.string.main_toast_capstone));
+                break;
+        }
     }
 
-    public void launchScores(View view) {
-        showShortToast("This button will launch my Scores app!");
-    }
-
-    public void launchLibrary(View view) {
-        showShortToast("This button will launch my Library app!");
-    }
-
-    public void launchBuild(View view) {
-        showShortToast("This button will launch my Build It Bigger app!");
-    }
-
-    public void launchXYZ(View view) {
-        showShortToast("This button will launch my XYZ Reader app!");
-    }
-
-    public void launchCapstone(View view) {
-        showShortToast("This button will launch my Capstone app!");
-    }
 }

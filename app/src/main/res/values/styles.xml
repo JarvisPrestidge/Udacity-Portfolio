@@ -5,4 +5,16 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="MainButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">0dp</item>
+        <item name="android:background">#F08C35</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:onClick">launchApp</item>
+    </style>
+
 </resources>

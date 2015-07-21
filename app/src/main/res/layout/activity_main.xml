@@ -52,77 +52,36 @@
 
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button1"
-                    android:text="@string/main_button_spotify"
-                    android:background="#F08C35"
-                    android:onClick="launchSpotify"/>
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_spotify"
+                    android:text="@string/main_button_spotify" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button2"
-                    android:text="@string/main_button_scores"
-                    android:background="#F08C35"
-                    android:onClick="launchScores"/>
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_scores"
+                    android:text="@string/main_button_scores"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button3"
-                    android:text="@string/main_button_library"
-                    android:background="#F08C35"
-                    android:onClick="launchLibrary"/>
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_library"
+                    android:text="@string/main_button_library"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button4"
-                    android:text="@string/main_button_build"
-                    android:background="#F08C35"
-                    android:onClick="launchBuild"/>
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_build"
+                    android:text="@string/main_button_build"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button5"
-                    android:text="@string/main_button_xyz"
-                    android:background="#F08C35"
-                    android:onClick="launchXYZ"/>
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_xyz"
+                    android:text="@string/main_button_xyz"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="1"
-                    android:height="0dp"
-                    android:id="@+id/button6"
+                    style="@style/MainButtonStyle"
+                    android:id="@+id/main_button_capstone"
                     android:text="@string/main_button_capstone"
                     android:background="#d40040"
-                    android:textColor="@android:color/white"
-                    android:onClick="launchCapstone"/>
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
